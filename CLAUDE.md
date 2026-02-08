@@ -28,6 +28,7 @@ At the start of any session, first complete the **session startup — branch sel
 - When uncertain about a fact from Matthew's background, ask rather than assume
 - Be direct and strategic. Flag bad fit honestly rather than softening the assessment
 - Proactively surface opportunities, risks, and recommendations rather than waiting to be asked
+- If a required file contains only placeholders or `[TO BE COMPLETED]` markers, note this to Matthew and proceed without it rather than silently falling back on general knowledge
 </behavioral_rules>
 
 <language_rules>
@@ -79,6 +80,12 @@ If critical context is missing, ask before proceeding.
 
 After completing the analysis, save it to `outputs/jd-analysis-[company]-[role-slug]-[date].md` so it can be referenced in future sessions for cover letter drafting or interview prep.
 
+**Before presenting, silently verify:**
+1. Every qualification mapping cites a specific fact from the knowledge base — no generic claims
+2. Fit score reasoning references specific matches and gaps, not overall impression
+3. Recommended positioning strategy names specific engagements and portfolio items, not categories
+4. No credential inflation — language matches `docs/master-resume.md` exactly
+
 ## DRAFT COVER LETTER
 Before producing any output, read these files:
 - `docs/master-resume.md`
@@ -100,6 +107,8 @@ User will specify target role or reference a recent JD analysis. Check `outputs/
 Save the cover letter to `outputs/cover-letter-[company]-[role-slug]-[date].md`.
 
 ## INTERVIEW PREP [role type]
+If role type is not specified, ask before proceeding.
+
 Before producing any output, read these files:
 - `docs/career-narrative.md` (STAR+R stories)
 - `docs/objection-handling.md`
@@ -118,6 +127,8 @@ Read `docs/career-narrative.md` for STAR+R stories and `docs/objection-handling.
 5. Red flags to watch for
 
 ## NETWORKING [name, context]
+If name or context is not provided, ask before proceeding.
+
 Before producing any output, read these files:
 - `docs/contacts.md` (check for existing relationship context — critical for avoiding missteps)
 - `docs/career-narrative.md`
@@ -146,8 +157,14 @@ Matthew's LinkedIn audience: risk, compliance, and technology leaders in financi
 
 1. Confirm topic and angle — tie to a specific experience, regulatory development, or prototyping insight
 2. Draft post (150–250 words for standard posts, up to 500 for long-form)
-3. Verify: every claim grounded in knowledge base, governance leads over technical build, no banned phrases, active voice
-4. Present draft with notes on strategic intent and suggested hashtags
+3. Present draft with notes on strategic intent and suggested hashtags
+
+**Before presenting, silently verify:**
+1. Every claim is grounded in a specific fact from the knowledge base — no generic thought leadership
+2. Governance insight leads over technical build in every mention of prototyping
+3. No banned phrases from `<language_rules>`
+4. Active voice throughout
+5. Credential language matches `docs/master-resume.md` exactly
 
 Save to `outputs/linkedin-[topic-slug]-[date].md`.
 
@@ -171,6 +188,12 @@ Check `outputs/` for any prior JD analysis for this company/role — if found, u
 3. Suggest which engagements to expand and which to compress based on relevance
 4. If portfolio projects are relevant, suggest a "Selected Projects" section with governance-first framing from `docs/portfolio-governance-framing.md`
 5. Present the tailored resume with a summary of changes made and rationale
+
+**Before presenting, silently verify:**
+1. Every bullet matches `docs/master-resume.md` wording exactly — no inflation, no fabricated experience
+2. Reordering and emphasis changes are justified by specific JD requirements
+3. Portfolio "Selected Projects" section (if included) leads with governance framing from `docs/portfolio-governance-framing.md`
+4. No banned phrases from `<language_rules>`
 
 Save to `outputs/resume-[company]-[role-slug]-[date].md`.
 
@@ -206,12 +229,16 @@ For application outcomes, append under "## Application Outcomes":
   - Takeaway: [what to adjust]
 
 Read `docs/lessons-learned.md` at the start of every workflow to check for accumulated rules before producing output.
+
+**Maintenance:** When `docs/lessons-learned.md` exceeds ~50 entries, suggest a pruning pass — remove entries that have been incorporated into other `docs/` files or are no longer relevant, and consolidate duplicates.
 </feedback_protocol>
 
 <formatting_rules>
 When referencing any job posting, always include the direct URL to the employer's career site. If you don't have the URL, search for it before responding.
 
 When suggesting new roles, always provide a working link. If a link may have expired, note that and provide the employer's career portal URL with search terms.
+
+If web search is unavailable, proceed without the URL and note the omission so Matthew can add it manually.
 </formatting_rules>
 
 <output_delivery>
@@ -222,21 +249,21 @@ Write deliverables to files in an `outputs/` directory. Create the directory if 
 **Output to terminal:** Interview prep coaching, fit assessments, strategic advice, and any analytical or conversational output. These are working materials, not deliverables. JD analyses are displayed in terminal AND saved to `outputs/` for future reference (per the ANALYZE JD workflow).
 
 Never modify files in `docs/` unless explicitly asked, except for `docs/lessons-learned.md` (see <feedback_protocol>). The files in `docs/` are source-of-truth documents. If you think a file needs updating (e.g., adding a new STAR story to career-narrative.md), suggest the edit and wait for approval before writing.
+
+**Cross-file consistency:** When editing any `docs/` file, check `master-resume.md`, `engagement-mapping.md`, and `career-narrative.md` for restated facts (metrics, dates, titles) that may need the same update. Flag any inconsistencies found.
 </output_delivery>
 
 <git_workflow>
-This project uses GitHub as its primary storage and memory. After completing work that produces or modifies files, commit and push.
+This project uses GitHub as its primary storage and memory. The `main` branch is the canonical state. After completing work that produces or modifies files, commit, push, and merge to `main`.
 
-**Session startup — branch selection (CRITICAL, run FIRST):**
-This environment uses `claude/` prefixed branches (no `main` branch exists). Each session may start on an arbitrary old branch, causing silent data loss. At the very start of every session, before doing ANY other work (including `git pull`):
+**Session startup (CRITICAL, run FIRST):**
+At the very start of every session, before doing ANY other work:
 
 1. Run: `git fetch origin`
-2. Run: `git branch -r --sort=-committerdate | head -1` to find the most recently committed remote branch
-3. If the current branch is NOT based on that latest branch, check it out:
-   `git checkout -b claude/<session-branch-name> <latest-remote-branch>`
-4. Only then proceed with `git pull` and workflows
-
-This ensures every session starts from the most recent state regardless of which branch was auto-selected.
+2. Ensure you are branched from the latest `origin/main`:
+   `git checkout -b claude/<session-branch-name> origin/main`
+3. Run `git pull origin main` to confirm you have the latest state
+4. Only then proceed with workflows
 
 **When to commit:**
 - After saving a JD analysis to `outputs/`
@@ -256,10 +283,13 @@ This ensures every session starts from the most recent state regardless of which
 
 **Always push after committing.** The repo is the single source of truth. Unpushed commits defeat the purpose.
 
-**Before starting any workflow, pull first** to ensure you're working with the latest versions of all files. Run `git pull` silently at the start of any command workflow. (The session startup protocol above must complete before this step.)
+**Before starting any workflow, pull first** to ensure you're working with the latest versions of all files. Run `git pull` silently at the start of any command workflow.
 
-**End of session — push verification:**
-Before ending any session, verify that all commits have been pushed. Run `git status` and `git log origin/<branch>..HEAD` to confirm nothing is unpushed. Unpushed commits will be invisible to the next session and effectively lost.
+**End of session — merge to main:**
+Before ending any session:
+1. Push the working branch: `git push -u origin <branch-name>`
+2. Merge into main: `git checkout main && git merge <branch-name> && git push origin main`
+3. Run `git status` to confirm clean state. Unmerged work is invisible to the next session and effectively lost.
 </git_workflow>
 
 <file_reference>

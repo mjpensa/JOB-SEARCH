@@ -254,7 +254,7 @@ Never modify files in `docs/` unless explicitly asked, except for `docs/lessons-
 </output_delivery>
 
 <git_workflow>
-This project uses GitHub as its primary storage and memory. The `main` branch is the canonical state. After completing work that produces or modifies files, commit, push, and merge to `main`.
+This project uses GitHub as its primary storage and memory. The `main` branch is the canonical state. A GitHub Actions workflow (`.github/workflows/auto-merge-claude.yml`) automatically merges `claude/*` branches into `main` on every push.
 
 **Session startup (CRITICAL, run FIRST):**
 At the very start of every session, before doing ANY other work:
@@ -285,11 +285,8 @@ At the very start of every session, before doing ANY other work:
 
 **Before starting any workflow, pull first** to ensure you're working with the latest versions of all files. Run `git pull` silently at the start of any command workflow.
 
-**End of session — merge to main:**
-Before ending any session:
-1. Push the working branch: `git push -u origin <branch-name>`
-2. Merge into main: `git checkout main && git merge <branch-name> && git push origin main`
-3. Run `git status` to confirm clean state. Unmerged work is invisible to the next session and effectively lost.
+**End of session — push verification:**
+Before ending any session, verify that all commits have been pushed. Run `git status` and `git log origin/<branch>..HEAD` to confirm nothing is unpushed. GitHub Actions will automatically merge the pushed branch into `main`. Unpushed commits will be invisible to the next session and effectively lost.
 </git_workflow>
 
 <file_reference>

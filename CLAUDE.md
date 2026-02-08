@@ -246,6 +246,17 @@ This project uses GitHub as its primary storage and memory. After completing wor
 **Always push after committing.** The repo is the single source of truth. Unpushed commits defeat the purpose.
 
 **Before starting any workflow, pull first** to ensure you're working with the latest versions of all files. Run `git pull` silently at the start of any command workflow.
+
+**Session startup — branch selection (CRITICAL):**
+This environment uses `claude/` prefixed branches (no `main` branch exists). Each session may start on an arbitrary old branch, causing data loss. At the start of every session, before doing any work:
+
+1. Run: `git fetch origin`
+2. Run: `git branch -r --sort=-committerdate | head -1` to find the most recently committed remote branch
+3. If the current branch is NOT based on that latest branch, check it out:
+   `git checkout -b claude/<session-branch-name> <latest-remote-branch>`
+4. Only then proceed with workflows
+
+This ensures every session starts from the most recent state regardless of which branch was auto-selected.
 </git_workflow>
 
 <file_reference>

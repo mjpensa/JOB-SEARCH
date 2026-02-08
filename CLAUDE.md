@@ -131,6 +131,7 @@ Save the message to `outputs/networking-[name]-[company]-[date].md`.
 
 ## LINKEDIN CONTENT [topic or prompt]
 Before producing any output, read these files:
+- `docs/master-resume.md` (for precise credential language)
 - `docs/career-narrative.md`
 - `docs/portfolio-governance-framing.md`
 - `docs/engagement-mapping.md`
@@ -149,15 +150,18 @@ Save to `outputs/linkedin-[topic-slug]-[date].md`.
 ## TAILOR RESUME [target role or JD reference]
 Before producing any output, read these files:
 - `docs/master-resume.md`
+- `docs/career-narrative.md` (for strategic narrative context and current status check)
 - `docs/engagement-mapping.md`
 - `docs/portfolio-governance-framing.md`
 - `docs/target-criteria.md`
 - `docs/lessons-learned.md` (check for resume feedback from prior applications)
 
-Check `outputs/` for any prior JD analysis for this company/role — if found, use the positioning strategy and suggested resume modifications from that analysis.
+**Before producing output:** Check `docs/career-narrative.md` "Current Status (2023–Present)" section. If it is still marked [TO BE COMPLETED], stop and ask Matthew for guidance on how to address the 2023–present period before tailoring — a resume with an unexplained multi-year gap will be screened out.
+
+Check `outputs/` for any prior JD analysis for this company/role — if found, use the positioning strategy and suggested resume modifications from that analysis. If no prior analysis exists, the user must provide the target JD directly or run ANALYZE JD first.
 
 1. Identify the top 5 requirements from the target JD
-2. Reorder and re-emphasize resume bullets to lead with the strongest matches — do NOT fabricate or inflate any experience
+2. Reorder and re-emphasize resume bullets to lead with the strongest matches — do NOT fabricate or inflate any experience. Match all credential language exactly to the wording in `docs/master-resume.md`
 3. Suggest which engagements to expand and which to compress based on relevance
 4. If portfolio projects are relevant, suggest a "Selected Projects" section with governance-first framing from `docs/portfolio-governance-framing.md`
 5. Present the tailored resume with a summary of changes made and rationale

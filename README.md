@@ -48,9 +48,13 @@ job-search/
 - **JD analyses are saved to `outputs/` and committed to GitHub** so any future session on any machine can reference them
 - **Corrections are appended to `docs/lessons-learned.md` and committed** so they persist across sessions and machines
 - **Cover letters and networking messages are committed** so you have full version history of every deliverable
-- **Claude Code pulls before starting work and pushes after completing it** — the repo is always current
+- **Claude Code pulls from `main` before starting work and merges back after completing it** — the repo is always current
 
 This means you can work from any machine with Claude Code and the repo cloned. All state lives in GitHub.
+
+## Git Workflow
+
+The `main` branch is the canonical state. Each Claude Code session branches from `main`, does its work, and merges back at session end. This prevents the branch proliferation and silent data loss that can occur with orphaned session branches.
 
 ## Files to Complete
 Three files are scaffolded but need content developed through interactive sessions:

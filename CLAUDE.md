@@ -87,6 +87,9 @@ Before producing any output, read these files:
 - `docs/lessons-learned.md` (check for style preferences and positioning rules)
 
 User will specify target role or reference a recent JD analysis. Check `outputs/` for any prior JD analysis file for this company/role. Read `docs/exemplar-cover-letters.md` for tone and structure patterns.
+
+**Before drafting:** Check `docs/career-narrative.md` "Current Status (2023–Present)" section. If it is still marked [TO BE COMPLETED], and the role or JD requires addressing the 2023–present period, stop and ask Matthew for guidance on how to frame this period before drafting.
+
 1. Confirm target role and top 3 requirements to address
 2. Draft following the exemplar patterns
 3. Run the cover letter verification checklist silently before presenting
@@ -103,6 +106,7 @@ Before producing any output, read these files:
 - `docs/regulatory-cheat-sheet.md`
 - `docs/target-criteria.md` (for role preference context)
 - `docs/exemplar-STAR-answers.md`
+- `docs/lessons-learned.md` (check for positioning preferences, objection refinements, and interview outcomes)
 
 Read `docs/career-narrative.md` for STAR+R stories and `docs/objection-handling.md` for anticipated challenges. Check `outputs/` for any prior JD analysis for this company/role — if found, use it to tailor questions and answers to the specific role requirements.
 1. Ten most likely interview questions for the specified role type
@@ -124,6 +128,41 @@ Read `docs/contacts.md` for any existing relationship context.
 4. Professional but warm closing
 
 Save the message to `outputs/networking-[name]-[company]-[date].md`.
+
+## LINKEDIN CONTENT [topic or prompt]
+Before producing any output, read these files:
+- `docs/career-narrative.md`
+- `docs/portfolio-governance-framing.md`
+- `docs/engagement-mapping.md`
+- `docs/regulatory-cheat-sheet.md`
+- `docs/lessons-learned.md` (check for content preferences and positioning rules)
+
+Matthew's LinkedIn audience: risk, compliance, and technology leaders in financial services. Content should position him as a practitioner-informed voice on AI governance — not a thought leader dispensing abstract principles.
+
+1. Confirm topic and angle — tie to a specific experience, regulatory development, or prototyping insight
+2. Draft post (150–250 words for standard posts, up to 500 for long-form)
+3. Verify: every claim grounded in knowledge base, governance leads over technical build, no banned phrases, active voice
+4. Present draft with notes on strategic intent and suggested hashtags
+
+Save to `outputs/linkedin-[topic-slug]-[date].md`.
+
+## TAILOR RESUME [target role or JD reference]
+Before producing any output, read these files:
+- `docs/master-resume.md`
+- `docs/engagement-mapping.md`
+- `docs/portfolio-governance-framing.md`
+- `docs/target-criteria.md`
+- `docs/lessons-learned.md` (check for resume feedback from prior applications)
+
+Check `outputs/` for any prior JD analysis for this company/role — if found, use the positioning strategy and suggested resume modifications from that analysis.
+
+1. Identify the top 5 requirements from the target JD
+2. Reorder and re-emphasize resume bullets to lead with the strongest matches — do NOT fabricate or inflate any experience
+3. Suggest which engagements to expand and which to compress based on relevance
+4. If portfolio projects are relevant, suggest a "Selected Projects" section with governance-first framing from `docs/portfolio-governance-framing.md`
+5. Present the tailored resume with a summary of changes made and rationale
+
+Save to `outputs/resume-[company]-[role-slug]-[date].md`.
 
 </commands>
 
@@ -180,7 +219,7 @@ This project uses GitHub as its primary storage and memory. After completing wor
 
 **When to commit:**
 - After saving a JD analysis to `outputs/`
-- After writing a cover letter or networking message to `outputs/`
+- After writing a cover letter, networking message, LinkedIn post, or tailored resume to `outputs/`
 - After appending to `docs/lessons-learned.md`
 - After any approved edit to a `docs/` file
 - Do NOT commit after terminal-only output (coaching, advice, analysis displayed but not saved)
@@ -189,6 +228,8 @@ This project uses GitHub as its primary storage and memory. After completing wor
 - JD analysis: `analyze: [Company] - [Role Title]`
 - Cover letter: `draft: cover letter for [Company] [Role Title]`
 - Networking message: `draft: networking msg to [Name] at [Company]`
+- LinkedIn content: `draft: LinkedIn post on [topic]`
+- Tailored resume: `draft: tailored resume for [Company] [Role Title]`
 - Lessons learned update: `log: [brief description of correction or outcome]`
 - Docs file edit: `update: [filename] - [what changed]`
 

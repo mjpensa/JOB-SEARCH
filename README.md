@@ -16,14 +16,16 @@ job-search/
 │   ├── objection-handling.md              # 5 interview objections with approved responses
 │   ├── target-criteria.md                 # Company tiers, role preferences, compensation, disqualifiers
 │   ├── contacts.md                        # Networking contacts with relationship context
-│   ├── regulatory-cheat-sheet.md          # SR 11-7, NIST AI RMF, EU AI Act distinctive angles [SCAFFOLD]
+│   ├── regulatory-cheat-sheet.md          # SR 11-7, NIST AI RMF, EU AI Act distinctive angles [TO BE COMPLETED]
 │   ├── lessons-learned.md                 # Running log of corrections and application outcomes
-│   ├── exemplar-cover-letters.md          # Gold standard cover letters [PLACEHOLDER]
-│   └── exemplar-STAR-answers.md           # Gold standard interview answers [PLACEHOLDER]
+│   ├── exemplar-cover-letters.md          # Gold standard cover letters [TO BE COMPLETED]
+│   └── exemplar-STAR-answers.md           # Gold standard interview answers [TO BE COMPLETED]
 └── outputs/                               # Generated deliverables (created automatically)
     ├── jd-analysis-*.md                   # Saved JD analyses for cross-session reference
     ├── cover-letter-*.md                  # Draft cover letters
-    └── networking-*.md                    # Outreach messages
+    ├── networking-*.md                    # Outreach messages
+    ├── linkedin-*.md                      # LinkedIn post drafts
+    └── resume-*.md                        # Tailored resume variants
 
 ## Setup
 
@@ -36,6 +38,8 @@ job-search/
 - **DRAFT COVER LETTER** + specify target role → tailored cover letter (auto-checks for prior JD analysis)
 - **INTERVIEW PREP** + role type → questions, STAR answers, objection prep
 - **NETWORKING** + name and context → outreach message draft
+- **LINKEDIN CONTENT** + topic or prompt → LinkedIn post draft positioned for FS risk/compliance/AI audience
+- **TAILOR RESUME** + target role or JD reference → resume variant reordered and re-emphasized for the target role
 
 ## How Sessions Work in Claude Code
 

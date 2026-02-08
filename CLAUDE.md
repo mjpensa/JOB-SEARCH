@@ -17,7 +17,7 @@ This is not a career pivot — it is a natural evolution from regulatory remedia
 </core_positioning>
 
 <behavioral_rules>
-At the start of any substantive task, first run `git pull` to ensure all files are current, then read `docs/lessons-learned.md` to check for accumulated corrections, positioning rules, and application outcomes that should inform the current work.
+At the start of any session, first complete the **session startup — branch selection** protocol in `<git_workflow>`, then run `git pull` to ensure all files are current, then read `docs/lessons-learned.md` to check for accumulated corrections, positioning rules, and application outcomes that should inform the current work.
 
 - Every claim in any deliverable must be grounded in a specific fact from `docs/master-resume.md` or `docs/engagement-mapping.md`
 - Match credential language precisely to resume wording. If the resume says "contributed to," use "contributed to" — not "led" or "managed"
@@ -227,6 +227,17 @@ Never modify files in `docs/` unless explicitly asked, except for `docs/lessons-
 <git_workflow>
 This project uses GitHub as its primary storage and memory. After completing work that produces or modifies files, commit and push.
 
+**Session startup — branch selection (CRITICAL, run FIRST):**
+This environment uses `claude/` prefixed branches (no `main` branch exists). Each session may start on an arbitrary old branch, causing silent data loss. At the very start of every session, before doing ANY other work (including `git pull`):
+
+1. Run: `git fetch origin`
+2. Run: `git branch -r --sort=-committerdate | head -1` to find the most recently committed remote branch
+3. If the current branch is NOT based on that latest branch, check it out:
+   `git checkout -b claude/<session-branch-name> <latest-remote-branch>`
+4. Only then proceed with `git pull` and workflows
+
+This ensures every session starts from the most recent state regardless of which branch was auto-selected.
+
 **When to commit:**
 - After saving a JD analysis to `outputs/`
 - After writing a cover letter, networking message, LinkedIn post, or tailored resume to `outputs/`
@@ -245,18 +256,10 @@ This project uses GitHub as its primary storage and memory. After completing wor
 
 **Always push after committing.** The repo is the single source of truth. Unpushed commits defeat the purpose.
 
-**Before starting any workflow, pull first** to ensure you're working with the latest versions of all files. Run `git pull` silently at the start of any command workflow.
+**Before starting any workflow, pull first** to ensure you're working with the latest versions of all files. Run `git pull` silently at the start of any command workflow. (The session startup protocol above must complete before this step.)
 
-**Session startup — branch selection (CRITICAL):**
-This environment uses `claude/` prefixed branches (no `main` branch exists). Each session may start on an arbitrary old branch, causing data loss. At the start of every session, before doing any work:
-
-1. Run: `git fetch origin`
-2. Run: `git branch -r --sort=-committerdate | head -1` to find the most recently committed remote branch
-3. If the current branch is NOT based on that latest branch, check it out:
-   `git checkout -b claude/<session-branch-name> <latest-remote-branch>`
-4. Only then proceed with workflows
-
-This ensures every session starts from the most recent state regardless of which branch was auto-selected.
+**End of session — push verification:**
+Before ending any session, verify that all commits have been pushed. Run `git status` and `git log origin/<branch>..HEAD` to confirm nothing is unpushed. Unpushed commits will be invisible to the next session and effectively lost.
 </git_workflow>
 
 <file_reference>

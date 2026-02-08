@@ -10,6 +10,24 @@ Program Management • Enterprise Risk Management • Reporting and Governance S
 
 ## Professional Experience
 
+### BIP — New York, NY
+**Manager — 2024–2026**
+
+*Built the firm's AI Risk Governance practice while delivering regulatory compliance engagements for top-tier financial institutions.*
+
+**AI Risk Governance Practice Development:** Internal Business Development
+
+- Spearheaded the development of a new AI Risk Governance practice offering, defining service capabilities, target market positioning, and delivery methodology
+- Prototyped AI-enabled automation tools to support business development and demonstrate practice capabilities to prospective clients
+
+**Resolution Planning — Wind-Down Calculation Tool:** Citi
+
+- Managed the design and development of a wind-down calculation tool for use in bank resolution planning, enabling orderly insolvency proceedings without systemic disruption
+- Oversaw development of an end-user GUI and complex underlying model that accepts scenario parameters and generates wind-down guidance based on real-world conditions
+- Coordinated across technology, risk, and business stakeholders to ensure model outputs met regulatory requirements for resolution planning
+
+---
+
 ### ERNST & YOUNG — New York, NY
 **Senior Risk Consultant — 2019–2023**
 

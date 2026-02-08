@@ -4,6 +4,26 @@ When drawing on consulting experience for cover letters, interview answers, or j
 
 ---
 
+## Citi — Resolution Planning / Wind-Down Calculation Tool (BIP)
+
+**What he did:** Managed the design and development of a wind-down calculation tool for bank resolution planning. Oversaw development of an end-user GUI and a complex underlying model that accepts scenario parameters and generates wind-down guidance based on real-world conditions. Coordinated across technology, risk, and business stakeholders.
+
+**Maps to AI governance:** This is model governance in practice — overseeing the development of a complex model, designing how users interact with model inputs and outputs, ensuring reliable guidance for high-stakes regulatory decisions. Maps directly to SR 11-7 model risk management: model development oversight, input validation, output review, and end-user controls. The resolution planning context also demonstrates comfort with systemic risk — the highest-stakes regulatory domain.
+
+**Use when discussing:** Model risk management, model development oversight, SR 11-7 compliance, complex model governance, high-stakes decision support systems, or AI model lifecycle management.
+
+---
+
+## BIP — AI Risk Governance Practice Development (Internal)
+
+**What he did:** Built BIP's AI Risk Governance practice from scratch — defined service capabilities, target market positioning, and delivery methodology. Prototyped AI-enabled automation tools to support business development and demonstrate practice capabilities.
+
+**Maps to AI governance:** Direct experience standing up an AI governance function — defining what the practice does, how it delivers value, and what tools it uses. The prototyping work provides firsthand understanding of AI-enabled automation risks and capabilities. This is the closest possible analog to building an AI governance program inside a financial institution.
+
+**Use when discussing:** Building AI governance programs from scratch, defining AI governance service offerings, AI strategy, or demonstrating entrepreneurial initiative in AI governance.
+
+---
+
 ## Wells Fargo — Data Resiliency Risk Strategy (EY)
 
 **What he did:** Designed a target operating model for detecting, responding to, and recovering from data corruption events. Reported to Tracy M. Kerrins (now Consumer CIO at Wells Fargo); presented to her multiple times alongside EY team led by Carl Liebel. Also presented directly to the COO of Wells Fargo Technology and the Board of Directors.

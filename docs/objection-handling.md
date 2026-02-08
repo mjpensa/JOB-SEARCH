@@ -30,4 +30,10 @@ These are the most likely challenges in interviews, with approved responses. Use
 
 ## Objection 5: "Your prototyping was all self-directed, not in a professional context."
 
-**Response:** That's true — and it was intentional. I invested my own time to develop firsthand understanding of the technology because I believe governance professionals who've never touched the systems they oversee can't design effective controls. Every prototype I built was chosen to map to a real financial services use case — document retrieval over regulatory policy, agentic automation in enterprise systems, AI-generated compliance deliverables. The insights I gained directly inform how I'd approach governance in a professional setting.
+**Response:** That's partially true — the initial prototyping was self-directed, but at BIP I prototyped AI-enabled automation tools professionally as part of building the firm's AI Risk Governance practice. The self-directed work was intentional: I invested my own time to develop firsthand understanding of the technology because I believe governance professionals who've never touched the systems they oversee can't design effective controls. Every prototype was chosen to map to a real financial services use case — document retrieval over regulatory policy, agentic automation in enterprise systems, AI-generated compliance deliverables. The insights I gained directly inform how I'd approach governance in a professional setting.
+
+---
+
+## Objection 6: "You had a short tenure at BIP and a gap before that — should we be concerned about stability?"
+
+**Response:** Both transitions were driven by market conditions, not performance. I left EY after four years when the engagement wound down, and BIP underwent an organizational restructuring. What I'd point to is what I accomplished in that time: at BIP, I built the AI Risk Governance practice from scratch — defined the service offering, prototyped AI-enabled tools, and delivered resolution planning model oversight at Citi. Before that, at EY, I led governance programs at Wells Fargo, Bank of America, and MasterCard. Consulting is project-based by nature — the question isn't tenure, it's impact per engagement. I'm now looking for a role where I can build something durable, which is exactly why AI governance at a financial institution is the right fit.

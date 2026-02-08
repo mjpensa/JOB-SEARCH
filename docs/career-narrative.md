@@ -2,21 +2,29 @@
 
 ## Current Status (2023–Present)
 
-[TO BE COMPLETED — Matthew needs to provide guidance on how to address the period since EY. Key questions:]
-- What is the official framing for the 2023–present period? (e.g., independent consulting, deliberate career development period, specific personal circumstances)
-- Should the prototyping work be positioned as the primary activity during this period?
-- Is there any consulting, advisory, or contract work during this period that should be referenced?
-- How should this be addressed if an interviewer asks directly?
+Left EY in June 2023. After a deliberate transition period evaluating opportunities in the emerging AI governance space, joined BIP in June 2024 as a Manager. At BIP, built the firm's AI Risk Governance practice from the ground up — developing the service offering, prototyping AI-enabled automation tools for business development, and delivering client engagements including resolution planning model oversight at Citi. Separated from BIP in February 2026 due to organizational restructuring.
 
-**Until this section is completed, Claude Code should not speculate about this period. If a cover letter or interview prep requires addressing it, ask Matthew for guidance.**
+Currently pursuing AI governance, model risk management, and responsible AI enablement roles in financial services.
+
+**Framing guidance for the 2023–2024 gap (if asked):**
+"After four years at EY, I took time to be deliberate about my next move. I wanted to align with where financial services regulation was heading — AI governance. That's exactly what I found at BIP, where I built their AI Risk Governance practice."
+
+**Framing guidance for leaving BIP (if asked):**
+"The practice was restructured. In my time there, I built the AI Risk Governance offering from scratch, prototyped AI-enabled tools, and delivered resolution planning work for Citi — experience that directly aligns with the AI governance roles I'm now pursuing."
+
+**Rules:**
+- Never say "laid off," "terminated," or "let go" in any external-facing deliverable
+- Use "separated due to restructuring" or "the practice was restructured" if the topic must be addressed
+- Do not volunteer either gap or departure — only address if asked
+- Redirect immediately to what was accomplished and what's next
 
 ## Strategic Narrative
 
 This is not a career pivot — it is a natural evolution from regulatory remediation → regulatory transformation → AI governance.
 
-10 years as a management consultant at EY and Capco, exclusively in banking and financial services. Clients include Wells Fargo, Bank of America, HSBC, MasterCard, Jefferies, Truist, and RBC. Core expertise: governance framework design, cross-functional stakeholder alignment, change management, controls testing, and regulatory compliance (OCC, Fed, CFPB, FINRA, SR 11-7).
+Over 10 years as a management consultant at BIP, EY, and Capco, exclusively in banking and financial services. Clients include Citi, Wells Fargo, Bank of America, HSBC, MasterCard, Jefferies, Truist, and RBC. Core expertise: governance framework design, cross-functional stakeholder alignment, change management, controls testing, and regulatory compliance (OCC, Fed, CFPB, FINRA, SR 11-7).
 
-Deep, self-taught AI fluency — RAG workflows, prompt engineering, context window management, chain-of-thought reasoning, MCP, agentic AI architectures, NIST AI RMF, and EU AI Act — developed through deliberate self-directed prototyping over the past year. Not an engineer. Does not write production code, train models, or hold a CS degree. The prototyping was driven by a deliberate strategy to develop firsthand understanding of the technology he intends to govern.
+Deep AI fluency — RAG workflows, prompt engineering, context window management, chain-of-thought reasoning, MCP, agentic AI architectures, NIST AI RMF, and EU AI Act — developed through self-directed prototyping and professional prototyping at BIP (where he built AI-enabled automation tools as part of the AI Risk Governance practice). Not an engineer. Does not write production code, train models, or hold a CS degree. The prototyping was driven by a deliberate strategy to develop firsthand understanding of the technology he intends to govern.
 
 Strongest differentiator: the rare combination of deep regulatory expertise AND hands-on experience building with the technology — giving practitioner-level understanding of where AI risks actually emerge, not just where frameworks say they should. Bridges SR 11-7 model risk management and NIST AI RMF, translating between technical AI teams, business stakeholders, and regulators.
 

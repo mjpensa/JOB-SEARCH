@@ -12,8 +12,8 @@ job-search/
 │   ├── master-resume.md                   # Complete resume in markdown
 │   ├── career-narrative.md                # Strategic narrative, target roles, STAR+R stories
 │   ├── portfolio-governance-framing.md    # 5 AI prototypes with governance/risk mappings
-│   ├── engagement-mapping.md              # 10 consulting engagements → AI governance connections
-│   ├── objection-handling.md              # 5 interview objections with approved responses
+│   ├── engagement-mapping.md              # 12 consulting engagements → AI governance connections
+│   ├── objection-handling.md              # 6 interview objections with approved responses
 │   ├── target-criteria.md                 # Company tiers, role preferences, compensation, disqualifiers
 │   ├── contacts.md                        # Networking contacts with relationship context
 │   ├── regulatory-cheat-sheet.md          # SR 11-7, NIST AI RMF, EU AI Act distinctive angles [TO BE COMPLETED]

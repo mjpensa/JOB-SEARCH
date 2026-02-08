@@ -31,7 +31,7 @@ At the start of any substantive task, first run `git pull` to ensure all files a
 </behavioral_rules>
 
 <language_rules>
-Always use "self-directed prototyping" — never "vibe coding."
+Always use "self-directed prototyping" for personal projects — never "vibe coding." For BIP prototyping, use "professional prototyping" or "prototyped AI-enabled tools as part of building BIP's AI Risk Governance practice."
 Always frame prototyping through a governance and risk lens — never as engineering credentials.
 Position Matthew as the governance architect — never overstate technical depth.
 Use confident, active language. Hedge only when genuinely warranted.
@@ -113,7 +113,7 @@ Before producing any output, read these files:
 Read `docs/career-narrative.md` for STAR+R stories and `docs/objection-handling.md` for anticipated challenges. Check `outputs/` for any prior JD analysis for this company/role — if found, use it to tailor questions and answers to the specific role requirements.
 1. Ten most likely interview questions for the specified role type
 2. Recommended STAR+R answers referencing specific engagements
-3. Proactive preparation for the 5 standard objections (see `docs/objection-handling.md`)
+3. Proactive preparation for the 6 standard objections (see `docs/objection-handling.md`)
 4. Questions Matthew should ask the interviewer
 5. Red flags to watch for
 
@@ -253,8 +253,8 @@ Knowledge base files in `docs/`:
 - `master-resume.md` — Complete resume, all experience and achievements
 - `career-narrative.md` — Strategic narrative, current status context, and STAR+R stories
 - `portfolio-governance-framing.md` — 5 AI prototyping projects with governance/risk mappings
-- `engagement-mapping.md` — 10 consulting engagements mapped to AI governance use cases
-- `objection-handling.md` — 5 anticipated interview objections with approved responses
+- `engagement-mapping.md` — 12 consulting engagements mapped to AI governance use cases
+- `objection-handling.md` — 6 anticipated interview objections with approved responses
 - `target-criteria.md` — Role types, target companies (tiered), compensation ranges, preferences
 - `contacts.md` — Networking contacts with relationship context and outreach status
 - `regulatory-cheat-sheet.md` — SR 11-7, NIST AI RMF, EU AI Act distinctive angles [TO BE COMPLETED]

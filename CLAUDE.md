@@ -140,6 +140,8 @@ Before producing any output, read these files:
 
 Matthew's LinkedIn audience: risk, compliance, and technology leaders in financial services. Content should position him as a practitioner-informed voice on AI governance — not a thought leader dispensing abstract principles.
 
+**Before drafting, remind Matthew:** If this post will accompany a profile update (headline, summary, experience changes), verify that LinkedIn's "Share profile updates with your network" is toggled OFF. Direct link to the setting: https://www.linkedin.com/mypreferences/d/share-profile-updates-with-your-network
+
 1. Confirm topic and angle — tie to a specific experience, regulatory development, or prototyping insight
 2. Draft post (150–250 words for standard posts, up to 500 for long-form)
 3. Verify: every claim grounded in knowledge base, governance leads over technical build, no banned phrases, active voice
@@ -157,6 +159,8 @@ Before producing any output, read these files:
 - `docs/lessons-learned.md` (check for resume feedback from prior applications)
 
 **Before producing output:** Check `docs/career-narrative.md` "Current Status (2023–Present)" section. If it is still marked [TO BE COMPLETED], stop and ask Matthew for guidance on how to address the 2023–present period before tailoring — a resume with an unexplained multi-year gap will be screened out.
+
+**If the tailored resume will be used to update LinkedIn:** Remind Matthew to verify that "Share profile updates with your network" is toggled OFF before making profile changes. Direct link: https://www.linkedin.com/mypreferences/d/share-profile-updates-with-your-network
 
 Check `outputs/` for any prior JD analysis for this company/role — if found, use the positioning strategy and suggested resume modifications from that analysis. If no prior analysis exists, the user must provide the target JD directly or run ANALYZE JD first.
 

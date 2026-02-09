@@ -20,7 +20,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ## BIP — AI Risk Governance Practice Development (Internal)
 
-**What he did:** Built BIP's AI Risk Governance practice from scratch — defined service capabilities, target market positioning, and delivery methodology. Prototyped AI-enabled automation tools to support business development and demonstrate practice capabilities.
+**What he did:** Built BIP's AI Risk Governance practice from scratch — defined service capabilities, target market positioning, and delivery methodology. Prototyped AI-enabled automation tools to support business development and demonstrate practice capabilities to prospective clients.
 
 **Maps to AI governance:** Direct experience standing up an AI governance function — defining what the practice does, how it delivers value, and what tools it uses. The prototyping work provides firsthand understanding of AI-enabled automation risks and capabilities. This is the closest possible analog to building an AI governance program inside a financial institution.
 
@@ -32,7 +32,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ## Wells Fargo — Data Resiliency Risk Strategy (EY)
 
-**What he did:** Designed a target operating model for detecting, responding to, and recovering from data corruption events. Reported to Tracy M. Kerrins (now Consumer CIO at Wells Fargo); presented to her multiple times alongside EY team led by Carl Liebel. Also presented directly to the COO of Wells Fargo Technology and the Board of Directors.
+**What he did:** Developed a target operating model outlining over 50 capabilities needed to monitor, detect, respond to, and recover from data corruption events. Reported to Tracy M. Kerrins (now Consumer CIO at Wells Fargo); presented to her multiple times alongside EY team led by Carl Liebel. Also presented directly to the COO of Wells Fargo Technology and the Board of Directors.
 
 **Maps to AI governance:** AI model monitoring and drift detection, operational resilience frameworks for AI systems, and governance structures for newly launched risk functions.
 
@@ -44,17 +44,19 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ## Wells Fargo — Real Estate Loan Portfolio Compliance Review (EY)
 
-**What he did:** Managed review of loan portfolio for NFIP compliance.
+**What he did:** Managed team responsible for conducting a review of the Bank's real-estate loan portfolio for NFIP compliance.
 
 **Maps to AI governance:** AI-assisted document classification and compliance review, human-in-the-loop validation design, and controls testing for automated compliance workflows.
 
-**Enablement angle:** Limited. Primarily an operational compliance review. The human-in-the-loop design aspect is relevant to designing AI-assisted review workflows, but this is not a lead enablement story.
+**Maps to AI enablement:** Limited. Primarily an operational compliance review. The human-in-the-loop design aspect is relevant to designing AI-assisted review workflows, but this is not a lead enablement story.
+
+**Use when discussing:** AI-assisted document classification, human-in-the-loop validation design, or compliance review automation.
 
 ---
 
 ## Bank of America — Debit Card Fraud Claims Review (EY)
 
-**What he did:** Designed process flows for reviewing 1.2M fraud claims across multiple business lines.
+**What he did:** Drove operational redesign and change management across multiple business lines by designing and maintaining detailed process flows for reviewing the validity of 1.2M fraud claims.
 
 **Maps to AI governance:** AI-assisted claims processing, designing review workflows where AI handles triage and humans handle exceptions, and defining accuracy thresholds for automated decisions. Also maps to regulatory communication — saved client $5M through effective OCC/CFPB engagement.
 
@@ -66,7 +68,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ## MasterCard — Enterprise Risk Taxonomy Harmonization (EY)
 
-**What he did:** Led operational redesign across 1st, 2nd, and 3rd lines of defense to align with risk appetite.
+**What he did:** Led a current state analysis, operational redesign, and change management across 1st, 2nd, and 3rd lines of defense to align with risk appetite.
 
 **Maps to AI governance:** AI risk taxonomy design — how to classify AI use cases by risk tier, align AI risk with enterprise risk appetite, and ensure coverage across all three lines of defense.
 
@@ -82,13 +84,15 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 **Maps to AI governance:** Requirements management for AI governance frameworks, traceability from policy to implementation, and cross-functional alignment in large-scale transformation programs.
 
-**Enablement angle:** Limited. Requirements traceability is a supporting skill for large-scale technology adoption programs, but this is not a lead enablement story.
+**Maps to AI enablement:** Limited. Requirements traceability is a supporting skill for large-scale technology adoption programs, but this is not a lead enablement story.
+
+**Use when discussing:** Requirements management for AI governance frameworks, traceability from policy to implementation, or cross-functional alignment in large-scale programs.
 
 ---
 
 ## Key Bank — Consumer Lending Credit Risk Transformation (Capco)
 
-**What he did:** Achieved 8% increase in market share through overhauled pricing structure.
+**What he did:** Achieved an 8% increase in market share of consumer lending products by leading a team of 4 consultants and the Bank's credit risk experts to propose and implement an overhauled pricing structure.
 
 **Maps to AI governance:** Using AI/analytics to inform business strategy, change management and sustainment for new technology-enabled processes, and measurable business outcomes from transformation work.
 
@@ -100,11 +104,11 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ## MUFG Union Bank — New Digital Bank Launch (Capco)
 
-**What he did:** Directed a team of 17 consultants in developing a target operating model, requirements, systems, and launch for a new direct bank. Led testing with a team of 26 executing 2000+ test scripts to ensure system performance and controls effectiveness.
+**What he did:** Delegated tasks and provided feedback to a team of 17 consultants to ensure the successful development of a target operating model, requirements, systems, and launch for a new direct bank. Directed a team of 26 in executing 2000+ test scripts to ensure system performance and controls effectiveness.
 
 **Maps to AI governance:** Standing up new AI-enabled functions from scratch, operating model design, and large-scale controls testing (2000+ test scripts).
 
-**Maps to AI enablement:** Directed the end-to-end launch of a new technology-enabled business from concept to production — overseeing development of the target operating model, requirements, and systems, and leading testing (2000+ test scripts with a team of 26) to ensure readiness before go-live. This is the full enablement lifecycle for a greenfield capability.
+**Maps to AI enablement:** Oversaw the end-to-end launch of a new technology-enabled business from concept to production — ensuring successful development of the target operating model, requirements, and systems through a team of 17, and directing testing (2000+ test scripts with a team of 26) to ensure readiness before go-live. This is the full enablement lifecycle for a greenfield capability.
 
 **Use when discussing:** Standing up new functions from scratch, target operating model design, end-to-end delivery of technology-enabled capabilities, large-scale testing and validation, or greenfield launch programs.
 
@@ -128,14 +132,18 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 **Maps to AI governance:** AI risk assessment methodology, quantifying AI risk by likelihood and impact, and coordinating across operational, technology, market, and third-party risk for comprehensive coverage.
 
-**Enablement angle:** Limited. Risk assessment methodology is primarily a governance skill. The cross-functional coordination aspect is relevant to enablement, but this is not a lead enablement story.
+**Maps to AI enablement:** Limited. Risk assessment methodology is primarily a governance skill. The cross-functional coordination aspect is relevant to enablement, but this is not a lead enablement story.
+
+**Use when discussing:** AI risk assessment methodology, quantifying AI risk by likelihood and impact, or cross-functional risk coordination.
 
 ---
 
 ## RBC — Data Lineage Validation for CCAR Reporting (Capco)
 
-**What he did:** Led a team of 12 responsible for documenting source systems for all data elements used in regulatory reporting.
+**What he did:** Led a team of 12 responsible for documenting source systems for all data elements utilized by the Bank's CFO for regulatory reporting.
 
 **Maps to AI governance:** AI data lineage — tracing model inputs back to source systems, which is foundational to model validation under SR 11-7 and data governance under NIST AI RMF.
 
-**Enablement angle:** Limited. Data lineage documentation is primarily a governance/compliance skill. Relevant to AI data governance but not a lead enablement story.
+**Maps to AI enablement:** Limited. Data lineage documentation is primarily a governance/compliance skill. Relevant to AI data governance but not a lead enablement story.
+
+**Use when discussing:** AI data lineage, tracing model inputs to source systems, SR 11-7 model validation, or NIST AI RMF data governance.

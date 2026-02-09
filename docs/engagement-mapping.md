@@ -4,9 +4,13 @@ When drawing on consulting experience for cover letters, interview answers, or j
 
 Each engagement includes both a **governance mapping** (for oversight, risk, and compliance roles) and an **enablement mapping** (for adoption, CoE, and innovation roles) where a legitimate angle exists. Use the mapping that matches the target role's emphasis.
 
+**Confidence tags** (used by the `<deliverable_verification>` checklist in CLAUDE.md):
+- `[DIRECT]` — The actual work involved AI, models, or governance program design. Can be cited as primary qualification evidence.
+- `[ANALOG]` — The AI governance connection is analogical — the disciplines transfer, but the actual engagement was in a different domain. Use only as supporting context in deliverables (e.g., "this experience is directly transferable" rather than "I have done X in AI governance").
+
 ---
 
-## Citi — Resolution Planning / Wind-Down Calculation Tool (BIP)
+## Citi — Resolution Planning / Wind-Down Calculation Tool (BIP) `[DIRECT]`
 
 **What he did:** Managed the design and development of a wind-down calculation tool for bank resolution planning. Oversaw development of an end-user GUI and a complex underlying model that accepts scenario parameters and generates wind-down guidance based on real-world conditions. Coordinated across technology, risk, and business stakeholders.
 
@@ -18,7 +22,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## BIP — AI Risk Governance Practice Development (Internal)
+## BIP — AI Risk Governance Practice Development (Internal) `[DIRECT]`
 
 **What he did:** Built BIP's AI Risk Governance practice from scratch — defined service capabilities, target market positioning, and delivery methodology. Prototyped AI-enabled automation tools to support business development and demonstrate practice capabilities to prospective clients.
 
@@ -30,7 +34,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## Wells Fargo — Data Resiliency Risk Strategy (EY)
+## Wells Fargo — Data Resiliency Risk Strategy (EY) `[ANALOG]`
 
 **What he did:** Developed a target operating model outlining over 50 capabilities needed to monitor, detect, respond to, and recover from data corruption events. Reported to Tracy M. Kerrins (now Consumer CIO at Wells Fargo); presented to her multiple times alongside EY team led by Carl Liebel. Also presented directly to the COO of Wells Fargo Technology and the Board of Directors.
 
@@ -42,7 +46,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## Wells Fargo — Real Estate Loan Portfolio Compliance Review (EY)
+## Wells Fargo — Real Estate Loan Portfolio Compliance Review (EY) `[ANALOG]`
 
 **What he did:** Managed team responsible for conducting a review of the Bank's real-estate loan portfolio for NFIP compliance.
 
@@ -54,7 +58,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## Bank of America — Debit Card Fraud Claims Review (EY)
+## Bank of America — Debit Card Fraud Claims Review (EY) `[ANALOG]`
 
 **What he did:** Drove operational redesign and change management across multiple business lines by designing and maintaining detailed process flows for reviewing the validity of 1.2M fraud claims.
 
@@ -66,7 +70,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## MasterCard — Enterprise Risk Taxonomy Harmonization (EY)
+## MasterCard — Enterprise Risk Taxonomy Harmonization (EY) `[ANALOG]`
 
 **What he did:** Led a current state analysis, operational redesign, and change management across 1st, 2nd, and 3rd lines of defense to align with risk appetite.
 
@@ -78,7 +82,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## Truist — Merger Requirements Traceability (EY)
+## Truist — Merger Requirements Traceability (EY) `[ANALOG]`
 
 **What he did:** Aligned 4000+ requirements to strategic goals across cross-functional teams.
 
@@ -90,7 +94,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## Key Bank — Consumer Lending Credit Risk Transformation (Capco)
+## Key Bank — Consumer Lending Credit Risk Transformation (Capco) `[ANALOG]`
 
 **What he did:** Achieved an 8% increase in market share of consumer lending products by leading a team of 4 consultants and the Bank's credit risk experts to propose and implement an overhauled pricing structure.
 
@@ -102,7 +106,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## MUFG Union Bank — New Digital Bank Launch (Capco)
+## MUFG Union Bank — New Digital Bank Launch (Capco) `[ANALOG]`
 
 **What he did:** Delegated tasks and provided feedback to a team of 17 consultants to ensure the successful development of a target operating model, requirements, systems, and launch for a new direct bank. Directed a team of 26 in executing 2000+ test scripts to ensure system performance and controls effectiveness.
 
@@ -114,7 +118,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## Jefferies — T+2 Migration Systems Redesign (Capco)
+## Jefferies — T+2 Migration Systems Redesign (Capco) `[ANALOG]`
 
 **What he did:** Managed senior stakeholders from operations and technology across 8 business lines to document current-state processes and system interactions while implementing improvements.
 
@@ -126,7 +130,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## HSBC — Risk and Controls Self Assessment (Capco)
+## HSBC — Risk and Controls Self Assessment (Capco) `[ANALOG]`
 
 **What he did:** Guided a team of senior stakeholders across six business lines to identify 100+ business risks for CCAR compliance, including quantifying the likelihood of financial damage.
 
@@ -138,7 +142,7 @@ Each engagement includes both a **governance mapping** (for oversight, risk, and
 
 ---
 
-## RBC — Data Lineage Validation for CCAR Reporting (Capco)
+## RBC — Data Lineage Validation for CCAR Reporting (Capco) `[ANALOG]`
 
 **What he did:** Led a team of 12 responsible for documenting source systems for all data elements utilized by the Bank's CFO for regulatory reporting.
 

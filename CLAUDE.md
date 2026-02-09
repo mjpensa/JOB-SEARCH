@@ -19,8 +19,9 @@ This is not a career pivot — it is a natural evolution from regulatory remedia
 <behavioral_rules>
 At the start of any session, first complete the **session startup — branch selection** protocol in `<git_workflow>`, then run `git pull` to ensure all files are current, then read `docs/lessons-learned.md` to check for accumulated corrections, positioning rules, and application outcomes that should inform the current work.
 
-- Every claim in any deliverable must be grounded in a specific fact from `docs/master-resume.md` or `docs/engagement-mapping.md`
+- Every factual claim in any deliverable must pass the two-layer verification in `<deliverable_verification>`. Layer 1 (fact check against `docs/master-resume.md`) is a hard gate — no deliverable ships without it. Layer 2 (framing from mapping files) is permitted only after Layer 1 passes
 - Match credential language precisely to resume wording. If the resume says "contributed to," use "contributed to" — not "led" or "managed"
+- When using engagement mappings tagged `[ANALOG]` in `docs/engagement-mapping.md`, present them as transferable experience, not as direct AI governance credentials. Lead with `[DIRECT]` mappings in all deliverables; use `[ANALOG]` mappings only as supporting context
 - When referencing prototyping work, always lead with the governance or risk insight, then mention the build. Use the mappings in `docs/portfolio-governance-framing.md`
 - Use the specific technical vocabulary from SR 11-7, NIST AI RMF, and the target JD rather than generic business language
 - Write in active voice. Matthew is always the subject performing the action
@@ -82,9 +83,9 @@ If critical context is missing, ask before proceeding.
 After completing the analysis, save it to `outputs/jd-analysis-[company]-[role-slug]-[date].md` so it can be referenced in future sessions for cover letter drafting or interview prep.
 
 **Before presenting, silently verify:**
-1. Every qualification mapping cites a specific fact from the knowledge base — no generic claims
+1. Every qualification mapping cites a specific bullet from `docs/master-resume.md` — not just from mapping files. Indicate whether each mapping is `[DIRECT]` or `[ANALOG]` per `docs/engagement-mapping.md`
 2. Fit score reasoning references specific matches and gaps, not overall impression
-3. Recommended positioning strategy names specific engagements and portfolio items, not categories
+3. Recommended positioning strategy names specific engagements and portfolio items, not categories — and leads with `[DIRECT]` mappings
 4. No credential inflation — language matches `docs/master-resume.md` exactly
 
 ## DRAFT COVER LETTER
@@ -102,7 +103,7 @@ User will specify target role or reference a recent JD analysis. Check `outputs/
 
 1. Confirm target role and top 3 requirements to address
 2. Draft following the exemplar patterns
-3. Run the cover letter verification checklist silently before presenting
+3. Run the `<deliverable_verification>` checklist (both layers) silently before presenting
 4. Present draft with brief notes on strategic choices made
 
 Save the cover letter to `outputs/cover-letter-[company]-[role-slug]-[date].md`.
@@ -200,18 +201,25 @@ Save to `outputs/resume-[company]-[role-slug]-[date].md`.
 
 </commands>
 
-<cover_letter_verification>
-Before presenting any cover letter, silently verify all of the following. Revise any failures before presenting. Do not show this checklist unless asked.
+<deliverable_verification>
+Before presenting any external-facing deliverable (cover letter, tailored resume, LinkedIn post, networking message), silently run both verification layers in order. Revise any failures before presenting. Do not show this checklist unless asked.
 
-1. Every claim is grounded in a specific fact from `docs/master-resume.md` or `docs/engagement-mapping.md`
-2. No credential is overstated — language matches resume wording exactly
-3. The letter references at least one specific company initiative, value, or recent development from the JD or public information
-4. None of the banned phrases from <language_rules> appear anywhere
-5. The positioning frames Matthew as a strategic leader bridging business and technology — not as someone "transitioning" or "pivoting"
-6. Active voice throughout
-7. At least one engagement from `docs/engagement-mapping.md` is cited with a specific metric or outcome
-8. Governance leads in every mention of prototyping work — the risk insight comes before the technical build
-</cover_letter_verification>
+**LAYER 1 — FACT CHECK (hard gate, must pass before proceeding to Layer 2):**
+
+1. For every factual claim in the deliverable, identify the specific bullet in `docs/master-resume.md` that supports it. If a claim cannot be traced to a specific resume bullet WITHOUT using `engagement-mapping.md` or `portfolio-governance-framing.md` as an intermediary, flag it as unsupported and revise
+2. No credential is overstated — language matches `docs/master-resume.md` wording exactly. If the resume says "collaborated," the deliverable cannot say "led." If the resume says "contributed to," the deliverable cannot say "managed"
+3. The "resume-only" consistency test: Read the deliverable, then read only `docs/master-resume.md`. Would a reader who sees both documents find them consistent? If the deliverable implies experience that the resume does not show, revise. This is the outsider-perspective check — a hiring manager will read both
+
+**LAYER 2 — FRAMING CHECK (permitted only after Layer 1 passes):**
+
+4. Framing from `docs/engagement-mapping.md` and `docs/portfolio-governance-framing.md` may be applied to contextualize verified facts — but only mappings tagged `[DIRECT]` may serve as primary qualification evidence. Mappings tagged `[ANALOG]` may be used only as supporting context (e.g., "this experience is directly transferable to..." rather than "I have done X")
+5. The letter references at least one specific company initiative, value, or recent development from the JD or public information
+6. None of the banned phrases from `<language_rules>` appear anywhere
+7. The positioning frames Matthew as a strategic leader bridging business and technology — not as someone "transitioning" or "pivoting"
+8. Active voice throughout
+9. At least one engagement is cited with a specific metric or outcome from `docs/master-resume.md`
+10. Governance leads in every mention of prototyping work — the risk insight comes before the technical build
+</deliverable_verification>
 
 <feedback_protocol>
 When Matthew corrects your output, expresses a preference, or reports an application outcome:

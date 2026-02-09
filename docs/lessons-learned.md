@@ -26,4 +26,4 @@ Running log of corrections, preferences, and application outcomes. Update period
 
 ## Corrections and Preferences from Sessions
 
-[Add entries as they accumulate during working sessions]
+- 2026-02-09: Added dual governance/enablement framing to engagement-mapping.md and portfolio-governance-framing.md. When targeting enablement-focused roles (AI CoE, adoption, innovation), use the enablement mappings. When targeting governance/oversight roles, use the governance mappings. Both framings should stay grounded in resume facts — enablement framing surfaces honest analogs, not fabricated enablement experience. Strongest enablement engagements: BIP practice development, Key Bank (measurable outcome), Wells Fargo data resiliency (vendor eval, operating model), MUFG (greenfield launch), Citi (end-to-end tool delivery).
